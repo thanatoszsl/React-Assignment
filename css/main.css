@@ -1,0 +1,144 @@
+html {
+	background-color: #E1D8D7;
+}
+
+
+/**
+header
+**/
+
+.header {
+	border-radius: 10px;
+	border: solid #4282F0 1px;
+	font-size: 3em;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #81BBD8;
+	color: #302E2E;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/**
+emails and names (main list page)
+**/
+
+.list-menu {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.list-menu li {
+	margin-top: 30px;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-right: 140px;
+	background-color: #81BBD8;
+	margin-bottom: 10px;
+}
+
+.list-item-name {
+	padding-left: 10px;
+}
+
+h2 {
+	font-size: 1.1em;
+	display: inline-block;
+}
+
+.email {
+	float: right;
+	margin: 14px 20px;
+}
+
+.footer {
+	margin-top: 100px;
+	margin: 0 auto;
+	text-align: center
+}
+
+.nav-menu {
+	border-radius: 10px;
+	width: 70%;
+	margin: 0 auto;
+	list-style-type: none;
+	background-color: #81BBD8;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nav-menu li {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.nav-menu a:visited,
+a:link {
+	color: black;
+}
+
+.menu-item-link a,
+a:visited,
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.menu-item-link a:hover {
+	text-decoration: underline;
+}
+
+form {
+	padding: 8px 24px;
+	margin-left: 38%;
+}
+
+
+/**
+form box
+
+**/
+
+form > input,
+form > textarea {
+	display: block;
+	width: 240px;
+	padding: 4px 8px;
+	margin-bottom: 8px;
+	border-radius: 3px;
+	border: 1px solid #81BBD8;
+	font-size: 14px;
+	background: none;
+	box-shadow: none;
+}
+
+form > button {
+	display: block;
+	width: 258px;
+	margin-bottom: 8px;
+	border-radius: 3px;
+	border: 1px solid #81BBD8;
+	font-size: 14px;
+	background: none;
+	box-shadow: none;
+}
+
+
+/**
+footer
+**/
+
+.footer {
+	font-size: 1.0em;
+	color: black;
+}
