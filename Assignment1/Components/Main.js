@@ -29,7 +29,7 @@ let NavMenu = React.createClass({
         return (
 // Add menu items
 			
-            React.createElement("ul", {className: "nav-menu"}, 
+            React.createElement("ul", {className: "navMenu"}, 
                 React.createElement("li", {}, 
                     React.createElement("a", {href: "#"}, "List of Address")
                 ),
@@ -59,8 +59,8 @@ let ListItem = React.createClass({
     render: function() {
         return (
             React.createElement("li", {},
-                React.createElement("a", {className: "menu-item-link", href: "#/item/" + this.props.id},
-                    React.createElement("h2", {className: "list-item-name"}, this.props.name), 
+                React.createElement("a", {className: "itemLink", href: "#/item/" + this.props.id},
+                    React.createElement("h2", {className: "itemName"}, this.props.name), 
                     React.createElement("div", {className: "email"}, this.props.email)
                    
                 )
@@ -78,7 +78,7 @@ let ListItems = React.createClass({
 
     render: function() {
         return ( 
-            React.createElement("ul", {className: "list-menu"}, this.props.items.map(i => React.createElement(ListItem, i)))
+            React.createElement("ul", {className: "listMenu"}, this.props.items.map(i => React.createElement(ListItem, i)))
         )
     }
 });
@@ -112,10 +112,10 @@ let ItemPage = React.createClass({
 
     render: function() {
         return ( 
-            React.createElement("div", {className: "list-menu"},
-                React.createElement("h2", {className: "list-name-header"}, this.props.name),
+            React.createElement("div", {className: "listMenu"},
+                React.createElement("h2", {className: "nameHeader"}, this.props.name),
                 React.createElement("p", {}, this.props.email),
-                React.createElement("p", {className: "list-name-header"}, this.props.dob)
+                React.createElement("p", {className: "nameHeader"}, this.props.dob)
                 
             )
         )
